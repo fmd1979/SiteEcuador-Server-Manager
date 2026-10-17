@@ -1,0 +1,15 @@
+[Unit]
+Description=SiteEcuador Server Manager - Telegram alert evaluation
+After=network-online.target
+Wants=network-online.target
+[Service]
+Type=oneshot
+User=root
+Group=root
+ExecStart=/usr/bin/python3 /opt/siteecuador-manager/telegram/alert_worker.py
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=true
+ReadWritePaths=/var/lib/siteecuador-manager
+ReadOnlyPaths=/var/lib/apc-moodle-monitor /etc/siteecuador-manager /opt/siteecuador-manager
