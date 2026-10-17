@@ -36,3 +36,9 @@ No publicar secretos, claves SSH, credenciales, snapshots Restic ni configuracio
 ## Licencia
 
 **Licencia aún no definida.** Publicar código no concede automáticamente derechos de reutilización comercial.
+
+
+## Screens
+<img width="1920" height="869" alt="Image" src="https://github.com/user-attachments/assets/a1517fb6-d158-4f77-a42c-05d12905e93d" />
+
+<img width="1280" height="1367" alt="Image" src="https://github.com/user-attachments/assets/23e2e934-60e4-4b47-b548-0adfa11fcd59" />
