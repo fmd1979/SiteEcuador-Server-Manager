@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+.env
+.env.*
+!.env.example
+telegram.json
+**/telegram.json
+*.pem
+*.key
+*.p12
+*.pfx
+*.sqlite3
+*.db
+*.log
+*.bak
